@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Let's Learn</title>
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/da21f504c2.js" crossorigin="anonymous"></script>
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- style sheet link -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -39,11 +42,11 @@
         <section class="container">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" data-bs-interval="3000">
                         <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-flex justify-content-center align-items-center"
                             style="font-size: 1.5vw;">
-                            <div class="p-5 m-md-5  border ">
+                            <div class="p-5 m-md-5">
                                 <h1>The Freelance Masterclass: For Creatives</h1>
                                 <p>This is one of the online courses for freelancers which has a special focus on
                                     creative areas like graphic designers, photographers, website designers,
@@ -51,22 +54,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="3000">
                         <img src="images/cover/cover12.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-flex justify-content-center align-items-center"
                             style="font-size: 1.5vw;">
-                            <div class="p-5 m-md-5  border ">
+                            <div class="p-5 m-md-5">
                                 <h1>Learn SAP Course: Online for Beginners</h1>
                                 <p>This online study is one of the best SAP courses which is designed for SAP beginners
                                     and will teach you the basics of this system.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="3000">
                         <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-flex justify-content-center align-items-center"
                             style="font-size: 1.5vw;">
-                            <div class="p-5 m-md-5  border ">
+                            <div class="p-5 m-md-5">
                                 <h1>Fundamentals of Digital Marketing</h1>
                                 <p>This is the google digital marketing course that will help you build your business or
                                     freelancing career by learning the fundamentals of digital marketing.</p>
@@ -87,7 +90,7 @@
             </div>
         </section>
     </header>
-    <main>
+    <main style="max-width:100% ; overflow:hidden">
         <section class="container">
             <div class="text-center m-5">
                 <h1 class="fw-bold">Courses to get you started</h1>
@@ -299,7 +302,33 @@
                 </div>
             </div>
         </section>
+        <section class="container mt-5 d-none d-lg-block">
+            <h1 class="text-center">Trusted by over 800+ companies</h1>
+            <div class="d-flex justify-content-around my-5 py-3">
+                <div><img src="images/company/company-1.png" alt=""></div>
+                <div><img src="images/company/company-2.png" alt=""></div>
+                <div><img src="images/company/company-3.png" alt=""></div>
+                <div><img src="images/company/company-4.png" alt=""></div>
+                <div><img src="images/company/company-5.png" alt=""></div>
+                <div><img src="images/company/company-6.png" alt=""></div>
+            </div>
+        </section>
     </main>
+    <footer class="bg-dark w-100 p-5" style="height:300px;">
+        <div class="w-75 m-auto text-center text-white">
+            <h1>Let's Learn</h1>
+            <address>
+                Office 41, Rousview, Subhanigat, Sylhet,
+            </address>
+            <p>privacy Ploicy | Terms of use</p>
+        </div>
+        <div class="m-auto fs-3 d-flex justify-content-around" style="width:200px;">
+            <a href="https://web.facebook.com/udemy"><i class="fa-brands fa-facebook icon-color"></i></a>
+            <a href="https://twitter.com/udemy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-square-twitter icon-color"></i></a>
+            <a href="https://www.linkedin.com/company/udemy/"><i class="fa-brands fa-linkedin icon-color"></i></a>
+            <a href="https://www.instagram.com/udemy/?hl=en"><i class="fa-brands fa-square-instagram icon-color"></i></a>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
