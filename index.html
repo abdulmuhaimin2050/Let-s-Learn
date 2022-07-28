@@ -184,16 +184,17 @@
             <div class="row border my-5 p-lg-5 m-3 bg-primary text-white rounded" style="height:300px ;">
                 <div class="col-12 col-md-6 p-md-5 text-center text-md-start">
                     <h1 class="fw-bold">Ready to join?</h1>
-                    <p>It is a long established fact that a reader will be distracted by the 
+                    <p>It is a long established fact that a reader will be distracted by the
                         readable content of a page when looking at its layout.</p>
                 </div>
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-                    <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
                         Register Now
                     </button>
                 </div>
             </div>
-            
+
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
@@ -204,14 +205,95 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                           <form action="">
-                            <input type="email" class="form-control mb-3" placeholder="Your Email">
-                            <input type="password" class="form-control" placeholder="Password">
-                           </form>
+                            <form action="">
+                                <input type="email" class="form-control mb-3" placeholder="Your Email">
+                                <input type="password" class="form-control" placeholder="Password">
+                            </form>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             <button type="button" class="btn btn-primary">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Accordion -->
+        <section class="container">
+            <div class="text-center m-5">
+                <h1>Frequently Asked Questions</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.</p>
+            </div>
+            <div class="w-75 mx-auto">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is the difference between flex and grid layout.
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout
+                                    is that flexbox was designed for layout in one dimension - either a row or a column.
+                                    Grid was designed for two-dimensional layout - rows, and columns at the same time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is the difference between bootstrap and tailwind.
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Bootstrap comes with a set of pre-styled responsive, mobile-first components that
+                                    possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a
+                                    neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow
+                                    the generic pattern that makes them look identical.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is the css box model?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>In web development, the CSS box model refers to how HTML elements are modeled in
+                                    browser engines and how the dimensions of those HTML elements are derived from CSS
+                                    properties. It is a fundamental concept for the composition of HTML webpages.
+                                    Wikipedia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingfour">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+                                What is the css box model?
+                            </button>
+                        </h2>
+                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>In web development, the CSS box model refers to how HTML elements are modeled in
+                                    browser engines and how the dimensions of those HTML elements are derived from CSS
+                                    properties. It is a fundamental concept for the composition of HTML webpages.
+                                    Wikipedia</p>
+                            </div>
                         </div>
                     </div>
                 </div>
